@@ -1,0 +1,763 @@
+body {
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+body.contenido{
+    background-color: rgb(244, 244, 244);
+}
+
+b.italic{
+    font-style: italic;
+    font-weight: 600;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+ul.menu {
+    list-style: none;
+}
+
+a.titular {
+    color: rgb(0,0,0);
+    text-decoration:none;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+nav a{
+    color: rgb(0,0,0);
+    text-decoration:none;
+}
+
+nav a.estoy{
+    color:rgb(189, 55, 0);
+}
+
+nav a:hover {
+    color: rgba(0,0,0,0.5);
+}
+
+div.seccion_1{
+    color: rgb(255, 255, 255);
+    background-image: url("../img/bg-hero-home.jpg");
+    background-position: center; 
+}
+
+div.sintoma_l p a, div.sintoma_d p a{
+    color: rgb(189, 55, 0);
+
+}
+
+div.noticia a{
+    color: rgb(189, 55, 0);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+div.noticia a.leer_mas{
+    color: rgb(189, 55, 0);
+    text-decoration: none;
+    border-bottom: dotted;
+    font-size: 10px;
+}
+
+div.sintoma_l a.leer_mas, div.sintoma_d a.leer_mas{
+    color: rgb(189, 55, 0);
+    text-decoration: none;
+    border-bottom: dotted;
+
+}
+
+div.sintoma_l a.leer_mas:hover, div.sintoma_d a.leer_mas:hover{
+    color: rgb(0,0,0);
+}
+
+a.leer_mas:hover{
+    color: rgb(0, 0, 0);
+}
+
+div.noticia a:hover{
+    color: rgb(0, 0, 0);
+}
+
+div.noticia p{
+    font-size: 11px;
+}
+
+div.noticia p.desp{
+    margin-bottom: 0;
+}
+
+.pie {
+    margin-top: 75px;
+    padding: 20px 0 15px 0;
+    color: rgb(255, 255, 255);
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+}
+
+.pie a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.pie ul{
+    padding: 0;
+}
+
+.pie ul.terminos a:hover{
+    color: rgb(189,55,0);
+}
+
+.pie ul.redes a:hover{
+    opacity: 0.7;
+}
+
+nav ul{
+    padding: 0;
+}
+
+div.desp p{
+    justify-content: space-between;
+}
+
+div.sec1 a{
+    color: rgb(189,55,0);
+    text-decoration: none;
+}
+
+div.sec1 a:hover{
+    color: rgb(0,0,0);
+    text-decoration: underline rgb(0,0,0);
+}
+
+.mencion{
+    background: rgb(255,255,255);
+    border-left: 3px solid rgb(189,55,0);
+    font-style: italic;
+    font-weight: 400;
+    padding: 2px 20px;
+    margin-bottom: 15px;
+}
+
+.mencion b{
+    font-weight: 800;
+}
+
+/*---------------------------------------------- PC ----------------------------------------------*/
+
+@media screen and (min-width: 901px) {
+
+    header{
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(255, 255, 255);
+        padding: 1px 0 1px 0;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    
+    h4{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    h5{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    header{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    nav{
+        font-size: 10px;
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    div.contenedores{
+        margin-top: 20px;
+        padding: 0 25% 0 25%;
+    }
+
+    div.seccion_1{
+        font-size: 50px;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    div.seccion_2{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    div.seccion_2 p{
+        font-size: 16px;
+    }
+
+    div.seccion_3{
+        padding: 0 25% 0 25%;
+    }
+
+    div.seccion_4{
+        margin-top: 35px;
+        padding: 20px 25% 20px 25%;
+        background-color: rgb(242, 232, 228);
+    }
+
+    div.noticias{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    div.noticia{
+        width: 200px;   
+    }
+
+    div.noticia img{
+        max-width: 200px;
+        max-height: 200px;            
+    }
+
+    nav ul li.categoria{
+        margin-left: 20px;
+    }
+
+    form{
+        margin: 0 auto;
+        padding: 0 25% 0 25%;
+        max-width: 400px;
+        min-width: 350px;
+    }
+
+    form a{
+        text-decoration: none;
+        color: rgb(189, 55, 0);
+    }
+
+    form a:hover{
+        color: rgba(0,0,0);
+        text-decoration: underline rgb(0,0,0);
+    }
+
+    form p, label{
+        font-size: 10px;
+    }
+
+    input[type=checkbox]{
+        transform: scale(0.75);
+        margin-right: 0;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        background-color: rgb(189, 55, 0);
+        color: rgb(255, 255, 255);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+    }
+      
+    input[type=submit]:hover {
+        color: rgb(255,255,255);
+        background-color: rgb(0,0,0);
+    }
+
+    div.sintoma_l{
+        position: static;
+        display: flex;
+    }
+
+    div.sintoma_d{
+        margin-left:205px;
+        position: static;
+        display: flex;
+    }
+
+    div.sintoma_l img, div.sintoma_d img{
+        width: 200px;
+        height: 150px;
+    }
+
+    div.sintoma_l, div.sintoma_d{
+        width: 400px;
+        font-size: 9px;
+        margin-bottom: 25px;
+        background-color: rgb(255,255,255);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    div.sintoma_l div.desp, div.sintoma_d div.desp{
+        margin-left: 10px;
+    }
+
+    .pie{
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 12px;
+    }
+
+    ul.terminos{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    ul.terminos li.ter{
+        list-style: disc;
+        margin-left: 20px;
+    }
+
+    ul.redes{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    div.videos{
+        padding-left: 25%;
+    }
+
+    div.vid{
+        display: flex;
+    }
+
+    div.vid p{
+        text-align: center;
+        background: rgb(255,255,255);
+        margin-right: 15px;
+        padding-bottom: 10px;
+        line-height : 25px;
+        font-size: 10px;
+    }
+
+    h6{
+        font-size: 12px;
+    }
+
+    div.secciones{
+        padding:0 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.secciones div.sec1{
+        max-width: 290px;
+        margin-right: 50px;
+    }
+
+    div.secciones div.sec2{
+        max-width: 400px;
+        min-width: 350px;
+    }
+
+    img.logo{
+        max-width: 175px;
+    }
+
+    div.sec1 b{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    div.sec2 b{
+        font-weight: 600;
+    }
+
+    div.secciones p, div.secciones ol{
+        font-size: 12px;
+    }
+
+} 
+
+
+/*---------------------------------------------- Movil ----------------------------------------------*/
+
+
+@media (max-width: 900px) {
+
+    h1{
+        font-size: 50px;
+    }
+    
+    h4{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    header{
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        padding: 1px 0 1px 0;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    nav{
+        font-size: 10px;
+    }
+
+    div.seccion_1{
+        font-size: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    div.seccion_2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    div.seccion_2 p{
+        font-size: 16px;
+    }
+
+    div.seccion_3{
+        padding: 0 5% 0 5%;
+    }
+
+    div.seccion_4{
+        margin-top: 35px;
+        padding: 20px 5% 20px 5%;
+        background-color: rgb(242, 232, 228);
+    }
+
+    div.noticia{
+        max-width: 500px;   
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    div.noticia img{
+        max-width: 500px;
+        max-height: 500px;          
+    }
+
+    nav ul li.categoria{
+        margin-left: 20px;
+    }
+
+    form{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+        max-width: 400px;
+        min-width: 350px;
+    }
+
+    form a{
+        text-decoration: none;
+        color: rgb(189, 55, 0);
+    }
+
+    form a:hover{
+        color: rgba(0,0,0);
+        text-decoration: underline rgb(0,0,0);
+    }
+
+    form p, label{
+        font-size: 10px;
+    }
+
+    input[type=checkbox]{
+        transform: scale(0.75);
+        margin-right: 0;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        background-color: rgb(189, 55, 0);
+        color: rgb(255, 255, 255);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+    }
+      
+    input[type=submit]:hover {
+        color: rgb(255,255,255);
+        background-color: rgb(0,0,0);
+    }
+
+    .pie{
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    ul.terminos{
+        list-style: none;
+    }
+
+    ul.redes{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.sintoma_l img, div.sintoma_d img{
+        width: 200px;
+        height: 150px;
+    }
+
+    div.sintoma_l, div.sintoma_d{
+        margin-left: 30%;
+        width: 200px;
+        font-size: 9px;
+        margin-bottom: 25px;
+        background-color: rgb(255,255,255);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    div.sintoma_l div.desp, div.sintoma_d div.desp{
+        margin-left: 10px;
+    }
+
+    div.contenedores{
+        margin-top: 20px;
+        padding: 0 20% 0 20%;
+    }
+
+    h5{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    div.videos{
+        padding-left: 30%;
+    }
+
+    div.vid p{
+        width: 325px;
+        text-align: center;
+        background: rgb(255,255,255);
+        margin-right: 15px;
+        padding-bottom: 10px;
+        line-height : 25px;
+        font-size: 10px;
+    }
+
+    h6{
+        font-size: 12px;
+    }
+
+    div.secciones{
+        padding:0 25%;
+    }
+
+    div.secciones div.sec1{
+        max-width: 290px;
+        min-width: 270px;
+        margin-right: 50px;
+    }
+
+    div.secciones div.sec2{
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    img.logo{
+        max-width: 175px;
+    }
+
+    div.sec1 b{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    div.sec2 b{
+        font-weight: 600;
+    }
+
+    div.secciones p, div.secciones ol{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    div.seccion_1{
+        font-size: 25px;
+    }
+
+    div.videos{
+        padding-left: 25%;
+    }
+} 
+
+@media (max-width: 700px) {
+
+    div.seccion_1{
+        font-size: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    form{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+        max-width: 350px;
+        min-width: 300px;
+    }
+
+    div.sintoma_l, div.sintoma_d{
+        margin-left: 20%;
+    }
+} 
+
+@media (max-width: 550px) {
+
+    div.noticia img{
+        max-width: 500px;
+        max-height: 450px;          
+    }
+
+    div.noticia{
+        max-width: 500px;   
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    form{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+        max-width: 250px;
+        min-width: 200px;
+    }
+
+    div.videos{
+        padding-left: 20%;
+    }
+} 
+
+@media (max-width: 500px) {
+
+    div.noticia img{
+        max-width: 400px;
+        max-height: 350px;          
+    }
+
+    div.noticia{
+        max-width: 400px;   
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    div.sintoma_l, div.sintoma_d{
+        margin-left: 15%;
+    }
+
+    div.videos{
+        padding-left: 15%;
+    }
+
+    div.secciones{
+        padding:0 15%;
+    }
+} 
+
+@media (max-width: 400px) {
+
+    div.seccion_1{
+        font-size: 15px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    div.noticia{
+        max-width: 350px;   
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    div.noticia img{
+        max-width: 350px;
+        max-height: 300px;          
+    }
+
+    form{
+        margin: 0 auto;
+        padding: 0 5% 0 5%;
+        max-width: 250px;
+        min-width: 200px;
+    }
+
+    div.sintoma_l, div.sintoma_d{
+        margin-left: 5%;
+    }
+
+    div.videos{
+        padding-left: 5%;
+    }
+
+    div.secciones{
+        padding:0 5%;
+    }
+} 
